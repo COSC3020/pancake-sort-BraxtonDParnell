@@ -29,3 +29,8 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+My implementation has a $/Theta$ of n^3 in terms of comparisons because it compares each index in the array at least three times. In terms of flips, the lower bound is 1 in the case of a sorted graph 
+while the upper bound n^2 when we have to flip at least twice. 
+
+I used https://www.geeksforgeeks.org/pancake-sorting/ to help me write the flip function.
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
